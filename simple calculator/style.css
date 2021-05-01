@@ -1,0 +1,48 @@
+body{
+  background-image: url('https://i.imgur.com/mSPU63U.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  font-family:'Share Tech Mono', monospace;
+}
+
+h1{
+  text-align: center;
+  
+}
+
+#result{
+ width:290px ;
+ height: 90px;
+ border-bottom: solid whitesmoke;
+ 
+}
+
+#container{
+  height: 370px;
+  width: 300px;
+  margin:auto;
+  margin-top: 150px;
+background-color:black;
+  border: 5px solid grey;
+  
+}
+
+input{
+height: 50px;
+width: 70px;
+background-color:black;
+color:whitesmoke;
+border:none;
+}
+
+input:hover{
+  background-color:#87CEFA;
+  color:black;
+  outline: 1px solid silver;
+}
+
+#all-buttons > table > tbody > tr:nth-child(1) > td:nth-child(1) > input[type=button]:hover{
+  background-color: red;
+}
+
